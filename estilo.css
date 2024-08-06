@@ -143,3 +143,17 @@ nav li a.active {
 .redes{
     margin-left: 39%;
 }
+
+.tecnologias{
+    margin: 6% 15%;
+}
+
+.tecnologias img{
+    width: 8%;
+    padding: 6px;
+    margin:3% ;
+}
+
+.tecnologias h1{
+    color: #ffff;
+}
