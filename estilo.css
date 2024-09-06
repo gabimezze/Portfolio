@@ -254,6 +254,25 @@ nav li a.active {
     }
 }
 
+@media (min-width: 1280px){
+    .foto-perfil {
+        margin-left: 25%;
+        margin-right: 0;
+    }
+
+    .link {
+        margin-right: 20%;
+        display: inline;
+    }
+    header img {
+        width: 8%;
+    }
+    .txt-inicial {
+        font-size: 1.5rem;
+        margin-left: 3%;
+    }
+}
+
 footer {
     background-color: transparent;
     padding: 20px;
