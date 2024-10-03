@@ -6,6 +6,7 @@
     <title>Meu Portfólio</title>
     <link rel="stylesheet" href="./estilo.css">
     <link rel="shortcut icon" href="../img/favicon-coffee.png" type="image/x-icon">
+    <script src="./script.js"></script>
 </head>
 <body>
 <header>
@@ -13,11 +14,18 @@
         <img src="../img/favicon-coffee.png" alt="icon">
     </div>
     <nav>
-            <li class="link"><a class="active" href="./index.html">Início</a></li>
-            <li class="link"><a href="./sobre.html">Sobre</a></li>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        <div id="overlay" class="overlay" onclick="toggleMenu()"></div>
+        <div id="menu" class="menu">
+            <span class="close-btn" onclick="toggleMenu()">X</span>
+            <ul>
+                 <li class="link"><a class="active" href="./index.html">Início</a></li>
+                 <li class="link"><a href="./sobre.html">Sobre</a></li>
+            </ul>
+        </div>
     </nav>
 </header>
-<hr>
+
 <div class="txt-inicial">
     <h1>Gabriela Gomes</h1>
     <p> <span>Graduanda em Análise e Desenvolvimento de Sistemas | Full-Stack</span></p>
