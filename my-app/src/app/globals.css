@@ -19,19 +19,26 @@
     @apply animate-slide-in-left bg-gradient-to-t from-violet-500 to-pink-400 bg-clip-text text-transparent text-4xl font-semibold mb-0;
   }
   .home p{
-    @apply animate-slide-in-left text-xl mt-4 ;
+    @apply animate-slide-in-left text-xl mt-4 mb-0;
   }
   .home {
-    @apply flex flex-col justify-center items-center h-screen overflow-hidden text-left;
+    @apply mt-40 space-x-4 flex flex-col justify-center items-center h-screen overflow-hidden text-left;
   }
-  .home a {
-    @apply flex space-x-4 mt-8 animate-slide-in-left ;
-  }
+  
   .sb {
-    @apply grid grid-cols-2 gap-4 mt-8 bg-white text-black py-2 px-4 rounded-md hover:bg-slate-200;
+    @apply   mt-8 bg-white text-black py-2 px-4 rounded-md hover:bg-slate-200;
   }
   .bntc {
-    @apply grid grid-cols-2 gap-4 mt-8 bg-slate-400 bg-opacity-20 text-white py-2 px-4 rounded-md hover:bg-white hover:bg-opacity-25;
+    @apply mt-8 bg-slate-400 bg-opacity-20 text-white py-2 px-4 rounded-md hover:bg-white hover:bg-opacity-25;
+  }
+  .sobre img {
+    @apply inline m-6;
+  }
+  .sobre h1 {
+    @apply text-2xl font-semibold m-4;
+  }
+  .sobre p {
+    @apply m-6;
   }
   @keyframes slide-in-left {
     0% {
