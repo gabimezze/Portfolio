@@ -7,15 +7,18 @@ import email from "@/img/email.png"
 export default function Sobre() {
     return (
         <div className="sobre">
+            <div className="redes">
             <a href="https://www.linkedin.com/in/gabimezze/"><Image src={linkedin} alt="linkedin" width={40} height={40} /></a>
             <a href="https://github.com/gabimezze"><Image src={github} alt="github" width={40} height={40} /></a>
             <a href="https://www.instagram.com/gabimezze/"><Image src={instagram} alt="instagram" width={40} height={40} /></a>
             <a href="mailto:contatogabicez@gmail.com"><Image src={email} alt="email" width={40} height={40} /></a>
+            </div>
             <h1>Sobre Mim</h1>
             <p>Meu nome é Gabriela, tenho 19 anos, e a tecnologia sempre desempenhou um papel central em minha vida, despertando meu interesse desde cedo e proporcionando-me constante entretenimento. Essa curiosidade crescente levou-me ao fascinante mundo da programação.
         Atualmente, estou cursando o segundo semestre na FIAP e já possuo conhecimentos autodidatas adquiridos antes de iniciar a faculdade. Tenho uma grande vontade de aprender e me aprimorar continuamente.
         Meu objetivo é evoluir constantemente como profissional, contribuindo de maneira significativa para as equipes e empresas com as quais colaboro. Estou aberta a oportunidades que me permitam aplicar minhas habilidades e adquirir novos conhecimentos em tecnologias emergentes.</p>
         <h1>Skills</h1>
+        <div className="skill">
         <Image alt="Gabi-Js" height={"30"} width={"40"} src={"https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"} />
         <Image alt="Gabi-html5" height={"30"} width={"40"} src={"https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"} />
         <Image alt="Gabi-css3" height={"30"} width={"40"} src={"https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"} />
@@ -25,6 +28,7 @@ export default function Sobre() {
         <Image alt="Gabi-react" height={"30"} width={"40"} src={"https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"} />
         <Image alt="Gabi-nextjs" height={"30"} width={"40"} src={"https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg"} />
         <Image alt="Gabi-git" height={"30"} width={"40"} src={"https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg"} />
+        </div>
         </div>
     )
 } 

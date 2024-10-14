@@ -6,7 +6,6 @@ export default function Menu() {
             <ul>
                 <li><Link href="/">Home</Link></li>
                 <li><Link href="/sobre">Sobre</Link></li>
-                <li><Link href="/projetos">Projetos</Link></li>
             </ul>
         </nav>
     )
