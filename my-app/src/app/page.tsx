@@ -12,12 +12,6 @@ export default function Home() {
     <p className="animate-slide-in-left text-xl mt-4 mb-0">
       Olá, sejam bem vindos(as) ao meu Portfólio! De uma olhada e conheça mais sobre mim.
     </p>
-    <button className=" mt-8 bg-white text-black py-2 px-4 rounded-md hover:bg-slate-200">
-      saiba mais
-    </button> 
-    <button className=" mt-8 bg-slate-400 bg-opacity-20 text-white py-2 px-4 rounded-md hover:bg-white hover:bg-opacity-25">
-      currículo
-    </button>
     </div>
   )
 }
