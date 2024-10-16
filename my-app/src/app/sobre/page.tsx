@@ -17,7 +17,7 @@ export default function Sobre() {
             <p className="m-6 mb-5">Meu nome é Gabriela, tenho 19 anos, e a tecnologia sempre desempenhou um papel central em minha vida, despertando meu interesse desde cedo e proporcionando-me constante entretenimento. Essa curiosidade crescente levou-me ao fascinante mundo da programação.
         Atualmente, estou cursando o segundo semestre na FIAP e já possuo conhecimentos autodidatas adquiridos antes de iniciar a faculdade. Tenho uma grande vontade de aprender e me aprimorar continuamente.
         Meu objetivo é evoluir constantemente como profissional, contribuindo de maneira significativa para as equipes e empresas com as quais colaboro. Estou aberta a oportunidades que me permitam aplicar minhas habilidades e adquirir novos conhecimentos em tecnologias emergentes.</p>
-        <h1 className="text-2xl font-semibold m-4 mb-6">Skills</h1>
+        <h1 className="text-2xl font-semibold m-4">Skills</h1>
         <div>
         <Image alt="Gabi-Js" height={"30"} width={"40"} src={"https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"} />
         <Image alt="Gabi-html5" height={"30"} width={"40"} src={"https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"} />
